@@ -45,5 +45,11 @@ public class Main {
         double resultadoPotencia = potencia.calcularPotencia(2);
         System.out.println("La potencia de 5 es: " + resultadoPotencia);
 
+        //Alumno
+
+        Alumno alumno1 = new Alumno("Judith Bartolomé", 8);
+        alumno1.mostrarInformacion();
+
+
     }
 }
