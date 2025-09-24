@@ -6,14 +6,17 @@ public class Main {
 
         //Persona
         Persona persona1 = new Persona("Judith", 25);
-        System.out.println("Nombre: " + persona1.getNombre());
-        System.out.println("Edad: " + persona1.getEdad());
+        persona1.mostrarInformacion();
 
         //Calculo Rectángulo
         Rectangulo rectangulo = new Rectangulo(2, 5);
         System.out.println("El área de un rectángulo es: " + rectangulo.calculararea());
 
         //Cuenta Bancaria
+
+        CuentaBancaria cuenta1 = new CuentaBancaria("Judith Bartolome", 100, 50);
+        cuenta1.mostrarInformacion();
+
 
         //Ccche
         Coche coche1 = new Coche (50);

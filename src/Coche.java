@@ -1,3 +1,9 @@
+/**
+ * Clase que te dice la velocidad si aceleras y frenas.
+ * @author Judith Bartolome
+ * @version 1.0
+ */
+
 public class Coche {
     private double velocidad;
 

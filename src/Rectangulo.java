@@ -1,5 +1,10 @@
 import org.w3c.dom.css.Rect;
 
+/**
+ * Clase donde calculas el area de un rectangulo
+ * @author Judith Bartolome
+ * @version 1.0
+ */
 public class Rectangulo {
 
 

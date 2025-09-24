@@ -1,3 +1,9 @@
+/**
+ * Clase donde calculamos la Potencia y la Raiz Cuadrada de un numero
+ * @author  Judith Bartolome
+ * @version 1.0
+ */
+
 public class PotenciaYRaiz {
     private int numero;
 

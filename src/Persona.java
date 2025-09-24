@@ -1,3 +1,9 @@
+/**
+ * Clase donde nos dan los datos de un alumno.
+ * @author Judith Bartolome
+ * @version 1.0
+ */
+
 public class Persona {
     private String nombre;
     private int edad;
@@ -22,6 +28,11 @@ public class Persona {
 
     public void setEdad () {
         this.edad = edad;
+    }
+
+    public void mostrarInformacion() {
+        System.out.println("El nombre del persona es: " + nombre +"y su edad es: " + edad);
+
     }
 
 }
