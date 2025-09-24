@@ -1,0 +1,46 @@
+import javax.xml.transform.Source;
+import javax.xml.transform.SourceLocator;
+
+public class Main {
+    public static void main(String[] args) {
+
+        //Persona
+        Persona persona1 = new Persona("Judith", 25);
+        System.out.println("Nombre: " + persona1.getNombre());
+        System.out.println("Edad: " + persona1.getEdad());
+
+        //Calculo Rectángulo
+        Rectangulo rectangulo = new Rectangulo(2, 5);
+        System.out.println("El área de un rectángulo es: " + rectangulo.calculararea());
+
+        //Cuenta Bancaria
+
+        //Ccche
+        Coche coche1 = new Coche (50);
+        System.out.println("Velocidad inicial: " + coche1.getVelocidad());
+
+        coche1.acelerar();
+        System.out.println("Velocidad después de acelerar: " + coche1.getVelocidad());
+
+        coche1.frenar();
+        System.out.println("Velocidad después de frenar: " + coche1.getVelocidad());
+
+        //Libro
+
+        Libro libro1 = new Libro("Orgullo y Prejuicio" , "Jane Austen" , 852);
+        libro1.mostrarInformacion();
+
+        // Calculo raiz cuadrada
+
+        PotenciaYRaiz raizCuadrada = new PotenciaYRaiz(3);
+        double resultadoRaizCuadrada = raizCuadrada.calcularRaizCuadrada();
+        System.out.println("La raiz cuadrada de 3 es " + resultadoRaizCuadrada);
+
+        // Calculo de la potencia
+
+        PotenciaYRaiz potencia = new PotenciaYRaiz(5);
+        double resultadoPotencia = potencia.calcularPotencia(2);
+        System.out.println("La potencia de 5 es: " + resultadoPotencia);
+
+    }
+}
