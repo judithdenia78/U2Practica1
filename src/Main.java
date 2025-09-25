@@ -50,6 +50,19 @@ public class Main {
         Alumno alumno1 = new Alumno("Judith Bartolomé", 8);
         alumno1.mostrarInformacion();
 
+        //Circulo
 
+        Circulo circulo1 = new Circulo(5);
+        System.out.println("El radio del circulo es: " + circulo1.getRadio() + ", por lo que el calculo del area es: " + circulo1.calcularArea());
+
+        //Calculadora
+        Calculadora calculadora1 = new Calculadora(5 , 20);
+        System.out.println("El primer número es: " + calculadora1.getNum1());
+        System.out.println("El segundo número es: " + calculadora1.getNum2());
+
+        System.out.println("El resultado de la suma es: " + calculadora1.sumar());
+        System.out.println("El resultado de la resta es: " + calculadora1.restar());
+        System.out.println("El resultado de la multiplicación es: " + calculadora1.multiplicar());
+        System.out.println("El resultado de la división es: " + calculadora1.dividir());
     }
 }

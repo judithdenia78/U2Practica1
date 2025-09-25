@@ -5,10 +5,9 @@
  */
 
 public class Persona {
-    //Atributos
-    /**
-     * Establecemos los datos del alumno
-     */
+
+    //Establecemos los datos del alumno como atributos
+
     private String nombre;
     private int edad;
 
@@ -23,10 +22,10 @@ public class Persona {
         this.nombre = nombre;
         this.edad = edad;
     }
-
+    // Métodos de getters y setters
     /**
      * Parametro que te devuelve el  nombre del alumno
-     * @return
+     * @return nombre
      */
     public String getNombre() {
         return nombre;
@@ -34,7 +33,7 @@ public class Persona {
 
     /**
      * Parametro que te devuelve la edad del alumno
-     * @return
+     * @return edad
      */
     public int getEdad (){
         return edad;

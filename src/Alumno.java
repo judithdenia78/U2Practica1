@@ -7,12 +7,12 @@
 
 public class Alumno {
 
-    /**
-     * Establece los datos del alumno
-     */
+    //Establece los datos del alumno
+
     private String nombre;
     private double nota;
 
+    //Constructor de la clase
     /**
      * Parámetros que necesitamos para rellenar los datos del alumno
      * @param nombre
@@ -23,9 +23,10 @@ public class Alumno {
         this.nota = nota;
     }
 
+    //Métodos de getters y setters
     /**
      * Parámetro que devuelve el nombre del alumno
-     * @return
+     * @return nombre
      */
     public String getNombre () {
         return nombre;
@@ -33,7 +34,7 @@ public class Alumno {
 
     /**
      * Parámetro que devuelve la nota del alumno
-     * @return
+     * @return nota
      */
     public double getNota () {
         return nota;
@@ -57,7 +58,7 @@ public class Alumno {
 
     /**
      * Método para comrprobar e indicar si el alumno ha aprobado
-     * @return
+     * @return true or false
      */
     public boolean aprobado () {
         return nota >=5;
@@ -67,7 +68,7 @@ public class Alumno {
      * Método para mostrar por pantalla los datos y notas del alumno
      */
     public void mostrarInformacion() {
-        System.out.println("El nombre del alumno es: " + nombre + "y su nota es: " + nota);
+        System.out.println("El nombre del alumno es : " + nombre + " y su nota es: " + nota);
         System.out.println("¿Ha aprobado? " + aprobado());
     }
 }
