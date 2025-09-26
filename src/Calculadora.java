@@ -10,9 +10,9 @@ public class Calculadora {
     private int num2;
 
     /**
-     * Constructor que establece los parámetros de num1 y num2
-     * @param num1
-     * @param num2
+     * Constructor que inicia la calculadora con dos números
+     * @param num1 primer número
+     * @param num2 segundo número
      */
     public Calculadora (int num1 , int num2) {
         this.num1 = num1;
@@ -29,7 +29,7 @@ public class Calculadora {
 
     /**
      * Permite modificar el num1
-     * @param num1
+     * @param num1 modifica el valor de num1
      */
     public void setNum1 (int num1) {
         this.num1 = num1;
@@ -45,7 +45,7 @@ public class Calculadora {
 
     /**
      * Permite modificar el valor de num2
-     * @param num2
+     * @param num2 mofifica el valor de num2
      */
     public void setNum2 (int num2) {
         this.num2 = num2;

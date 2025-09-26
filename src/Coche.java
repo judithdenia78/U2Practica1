@@ -22,7 +22,7 @@ public class Coche {
 
     /**
      * Permite modificar la velocidad del coche
-     * @param velocidad
+     * @param velocidad velocidad inicial del coche
      */
     public void setVelocidad(double velocidad){
         this.velocidad = velocidad;
@@ -30,7 +30,7 @@ public class Coche {
 
     /**
      * Devuelve la velocidad del coche
-     * @return velocidad del coche
+     * @return velocidad del coche actual
      */
     public double getVelocidad(){
         return this.velocidad;

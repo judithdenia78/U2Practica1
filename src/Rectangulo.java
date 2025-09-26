@@ -1,4 +1,4 @@
-import org.w3c.dom.css.Rect;
+
 
 /**
  * Clase donde calculas el area de un rectangulo
@@ -15,8 +15,8 @@ public class Rectangulo {
 
     /**
      * Te da los valores iniciales de base y altura
-     * @param base
-     * @param altura
+     * @param base base del rectángulo
+     * @param altura altura del rectángulo
      */
     public Rectangulo(double base, double altura) {
         this.base = base;
@@ -34,7 +34,7 @@ public class Rectangulo {
 
     /**
      * Permite modificar el valor de la base
-     * @param base
+     * @param base base nueva modificada
      */
     public void setBase (double base) {
         this.base = base;
@@ -50,7 +50,7 @@ public class Rectangulo {
 
     /**
      * Permite modificar la altura del rectángulo
-     * @param altura
+     * @param altura altura nueva modificada
      */
     public void setAltura(double altura) {
         this.altura = altura;

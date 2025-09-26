@@ -14,9 +14,9 @@ public class CuentaBancaria {
 
     /**
      * Establece los valores de la cuenta bancaria de x persona y sus movimientos
-     * @param titular
-     * @param ingresar
-     * @param retirar
+     * @param titular nombre del titular de la cuenta
+     * @param ingresar cantidad queremos ingresar
+     * @param retirar cantidad que queremos retirar
      */
     public CuentaBancaria(String titular, double ingresar, double retirar) {
         this.saldo = saldo;
@@ -43,7 +43,7 @@ public class CuentaBancaria {
 
     /**
      * Permite modificar el titular de la cuenta
-     * @param titular
+     * @param titular modifica el nombre de la cuenta
      */
     public void setTitular (String titular) {
         this.titular = titular;
@@ -59,7 +59,7 @@ public class CuentaBancaria {
 
     /**
      * Método de retiro de una cantidad de la cuenta
-     * @param retiro
+     * @param retiro cantidad de dinero a retirar de la cuenta
      */
     public void retirar (double retiro) {
         this.saldo = this.saldo - retiro;
@@ -67,7 +67,7 @@ public class CuentaBancaria {
 
     /**
      * Método de ingreso de una cantidad de dinero de la cuenta
-     * @param ingreso
+     * @param ingreso cantidad de dinero a ingresar en la cuenta
      */
     public void ingresar (double ingreso) {
         this.saldo = this.saldo + ingreso;

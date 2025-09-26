@@ -13,7 +13,7 @@ public class Circulo {
 
     /**
      * Establece el valor del radio del círculo
-     * @param radio
+     * @param radio valor inicial del radio del círculo
      */
     public Circulo(double radio) {
         this.radio=radio;
@@ -31,7 +31,7 @@ public class Circulo {
 
     /**
      * Permite modificar el valor del radio del círculo
-     * @param radio
+     * @param radio nuevo valor del radio
      */
     public void setRadio(double radio) {
         this.radio = radio;

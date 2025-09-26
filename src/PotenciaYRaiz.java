@@ -13,7 +13,7 @@ public class PotenciaYRaiz {
 
     /**
      * Inicia el número con el que realizamos las operaciones
-     * @param numero
+     * @param numero con el cual realizamos las operaciones
      */
     public PotenciaYRaiz(int numero) {
         this.numero = numero;
@@ -23,7 +23,7 @@ public class PotenciaYRaiz {
 
     /**
      * Permite modificar el número
-     * @param numero
+     * @param numero número nuevo  modificado
      */
     public void setNumero(int numero) {
         this.numero = numero;
@@ -48,7 +48,7 @@ public class PotenciaYRaiz {
 
     /**
      * Método que calcula la potencia del número elevado
-     * @param potencia
+     * @param potencia la raíz cuadrada del número
      * @return número elevado a esa potencia
      */
     public double calcularPotencia(int potencia) {

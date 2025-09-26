@@ -15,8 +15,8 @@ public class Persona {
 
     /**
      * Establecemos los parámetros que necesitamos para rellenar los datos del alumno
-     * @param nombre
-     * @param edad
+     * @param nombre nombre de la persona
+     * @param edad edad de la persona
      */
     public Persona(String nombre, int edad) {
         this.nombre = nombre;
@@ -25,7 +25,7 @@ public class Persona {
     // Métodos de getters y setters
     /**
      * Parametro que te devuelve el  nombre del alumno
-     * @return nombre
+     * @return el nombre de la persona
      */
     public String getNombre() {
         return nombre;
@@ -33,7 +33,7 @@ public class Persona {
 
     /**
      * Parametro que te devuelve la edad del alumno
-     * @return edad
+     * @return edad de la persona
      */
     public int getEdad (){
         return edad;
@@ -41,17 +41,17 @@ public class Persona {
 
     /**
      * Permite modificar el nombre del alumno
-     * @param
+     * @param nombre  modifica el nombre de la persona
      */
-    public void setNombre () {
+    public void setNombre (String nombre) {
         this.nombre = nombre;
     }
 
     /**
      * Permite modificar la edad del alumno
-     * @param
+     * @param edad modifica la edad de la persona
      */
-    public void setEdad () {
+    public void setEdad (int edad) {
         this.edad = edad;
     }
 

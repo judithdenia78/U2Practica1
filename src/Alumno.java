@@ -42,17 +42,18 @@ public class Alumno {
 
     /**
      * Permite modificar el nombre del alumno
-     * @param
+     * @param nombre del alumno
      */
-    public void setNombre () {
+
+    public void setNombre (String nombre) {
         this.nombre = nombre;
     }
 
     /**
      * Permite modificar la nota del alumno
-     * @param
+     * @param nota del alumno
      */
-    public void setNota () {
+    public void setNota (double nota) {
         this.nota = nota;
     }
 

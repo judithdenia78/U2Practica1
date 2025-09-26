@@ -1,4 +1,4 @@
-import javax.xml.transform.SourceLocator;
+
 /**
  *Clase donde nos pide que ingresemos los datos de un libro
  * @author Judith Bartolome
@@ -14,10 +14,10 @@ public class Libro {
     //Constructor de la clase
 
     /**
-     * Datos que neceisitamos para rellenar los datos del libro
-     * @param titulo
-     * @param autor
-     * @param paginas
+     * Datos que necesitamos para rellenar los datos del libro
+     * @param titulo título del libro
+     * @param autor autor del libro
+     * @param paginas páginas que contiene el libro
      */
     public Libro (String titulo, String autor, int paginas) {
         this.titulo = titulo;
@@ -53,7 +53,7 @@ public class Libro {
 
     /**
      * Permite modificar el título del libro
-     * @param titulo
+     * @param titulo mofifica el valor del libro
      */
     public void setTitulo(String titulo) {
         this.titulo = titulo;
@@ -61,7 +61,7 @@ public class Libro {
 
     /**
      * Permite modificar el autor del libro
-     * @param autor
+     * @param autor modifica el nombre del autor
      */
     public void setAutor(String autor) {
         this.autor = autor;
@@ -69,7 +69,7 @@ public class Libro {
 
     /**
      * Permite modificar las páginas del libro
-     * @param paginas
+     * @param paginas modifica las páginas del libro
      */
     public void setPaginas(int paginas) {
         this.paginas= paginas;
